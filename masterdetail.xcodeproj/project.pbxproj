@@ -14,6 +14,7 @@
 		FA6DF4F71B8053DD005A94AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6DF4F61B8053DD005A94AA /* Assets.xcassets */; };
 		FA6DF4FA1B8053DD005A94AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DF4F81B8053DD005A94AA /* LaunchScreen.storyboard */; };
 		FA6DF5021B805B25005A94AA /* SecondMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6DF5011B805B25005A94AA /* SecondMasterTableViewController.swift */; };
+		FA6DF5041B8083CF005A94AA /* DetailPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6DF5031B8083CF005A94AA /* DetailPopoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA6DF4F91B8053DD005A94AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6DF4FB1B8053DD005A94AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6DF5011B805B25005A94AA /* SecondMasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondMasterTableViewController.swift; sourceTree = "<group>"; };
+		FA6DF5031B8083CF005A94AA /* DetailPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPopoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				FA6DF4ED1B8053DD005A94AA /* AppDelegate.swift */,
-				FA6DF4EF1B8053DD005A94AA /* MasterViewController.swift */,
-				FA6DF4F11B8053DD005A94AA /* DetailViewController.swift */,
-				FA6DF4F31B8053DD005A94AA /* Main.storyboard */,
 				FA6DF4F61B8053DD005A94AA /* Assets.xcassets */,
-				FA6DF4F81B8053DD005A94AA /* LaunchScreen.storyboard */,
+				FA6DF5031B8083CF005A94AA /* DetailPopoverViewController.swift */,
+				FA6DF4F11B8053DD005A94AA /* DetailViewController.swift */,
 				FA6DF4FB1B8053DD005A94AA /* Info.plist */,
+				FA6DF4F81B8053DD005A94AA /* LaunchScreen.storyboard */,
+				FA6DF4F31B8053DD005A94AA /* Main.storyboard */,
+				FA6DF4EF1B8053DD005A94AA /* MasterViewController.swift */,
 				FA6DF5011B805B25005A94AA /* SecondMasterTableViewController.swift */,
 			);
 			path = masterdetail;
@@ -142,6 +145,7 @@
 			files = (
 				FA6DF4F21B8053DD005A94AA /* DetailViewController.swift in Sources */,
 				FA6DF5021B805B25005A94AA /* SecondMasterTableViewController.swift in Sources */,
+				FA6DF5041B8083CF005A94AA /* DetailPopoverViewController.swift in Sources */,
 				FA6DF4F01B8053DD005A94AA /* MasterViewController.swift in Sources */,
 				FA6DF4EE1B8053DD005A94AA /* AppDelegate.swift in Sources */,
 			);
